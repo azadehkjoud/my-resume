@@ -1,0 +1,140 @@
+
+
+  /* Body Styles */
+body {
+    font-family: system-ui; /* Sets a modern font */
+    background-color: #efefef; /* Soothing background color */
+}
+
+/* Header Styles */
+header {
+    padding: 2rem 4rem; /* Adds generous padding */
+    border-bottom: 2px solid #29213f; /* Sleek border to define header */
+}
+
+/* Header List Styles */
+header ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+/* Header Link Styles */
+header a {
+    color: inherit; /* Matches the text color */
+    text-decoration: none; /* Removes underline */
+    font-style: normal; /* Removes italic style */
+}
+
+header a:hover {
+    text-decoration: underline; /* Underlines text on hover */
+    color: hotpink; /* Changes color on hover */
+}
+
+/* Header Image Styles */
+header img {
+    display: block; /* Makes the image a block element */
+    aspect-ratio: 1; /* Maintains a perfect circle aspect ratio */
+    border-radius: 50%; /* Rounds image to a circle */
+    object-fit: cover; /* Ensures the image covers its container */
+    filter: grayscale(1); /* Applies a grayscale filter */
+    margin: 1rem auto; /* Centers image with margin */
+}
+
+/* Header Text Styles (Name) */
+header h1 {
+    text-align: center; /* Centers the name text */
+    color: rgb(75, 37, 180); /* Striking color (change to tomato or peru if preferred) */
+    text-decoration: underline; /* Adds underline for flair */
+}
+
+/* Main Section Styles */
+main {
+    margin: 2rem 4rem; /* Adds breathing room to the main section */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 3rem; /* Separates sections with margin */
+}
+
+/* Paragraph Styles */
+p {
+    max-width: 80ch; /* Limits paragraph width for readability */
+}
+
+/* Specific Text and Layout Adjustments */
+section li h3,
+section li p {
+    font-size: 0.8rem; /* Reduces font size */
+    letter-spacing: 0.5px; /* Adds letter spacing */
+}
+
+/* Bullet Point Styles */
+section li {
+    margin: 0.5rem; /* Adds spacing between bullet points */
+}
+body li:hover {
+    text-decoration: underline; /* Underlines text on hover */
+    color: hotpink; /* Changes color on hover */
+}
+
+
+
+/*@media (max-width:320px){
+    h2{
+        font-size: 16px;
+        color: brown;
+    }
+}
+@media (min-width:321px) and (max-width:660px){
+    h2{
+        font-size: 16px;
+        color: rgb(42, 165, 63);
+    }
+}*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for extra small screens */
+    h2{
+        font-size: 16px;
+        color: rgb(89, 42, 165);
+    }
+  }
+   
+  /* Small devices (portrait tablets and large phones, 600px to 768px) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* CSS rules for small screens */
+    h2{
+        font-size: 16px;
+        color: rgb(8, 245, 51);
+    }
+  }
+   
+  /* Medium devices (landscape tablets, 768px to 992px) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* CSS rules for medium screens */
+    h2{
+        font-size: 16px;
+        color: rgb(43, 86, 26);
+    }
+  }
+   
+  /* Large devices (laptops/desktops, 992px to 1200px) */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* CSS rules for large screens */
+    h2{
+        font-size: 16px;
+        color: rgb(172, 36, 36);
+    }
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1201px) {
+    /* CSS rules for extra large screens */
+    h2{
+        font-size: 16px;
+        color: rgb(214, 57, 159);
+    }
+  }
